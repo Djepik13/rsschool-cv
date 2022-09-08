@@ -29,7 +29,7 @@ function getDecimal(n){
   if(n !== NaN && n !== Infinity){
     n = Math.abs(n%1)
   }
-  return n; 
+  return n;
 }
 ```
 
